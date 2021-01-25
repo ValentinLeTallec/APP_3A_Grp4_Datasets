@@ -1,5 +1,5 @@
 import json, cv2, tarfile, os, tempfile
-from git import Repo
+from pygit import Repo
 from six.moves import urllib
 import numpy as np
 from PIL import Image
