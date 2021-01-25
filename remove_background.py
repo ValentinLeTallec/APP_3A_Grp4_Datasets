@@ -4,7 +4,7 @@ from six.moves import urllib
 import numpy as np
 from PIL import Image
 
-%tensorflow_version 1.x
+# %tensorflow_version 1.x
 import tensorflow as tf
 
 # Import Retinex from git
