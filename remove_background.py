@@ -1,5 +1,5 @@
 import json, cv2, tarfile, os, tempfile
-from pygit import Repo
+# from pygit import Repo
 from six.moves import urllib
 import numpy as np
 from PIL import Image
@@ -8,13 +8,13 @@ from PIL import Image
 import tensorflow as tf
 
 # Import Retinex from git
-try:
-    init
-except NameError:
-  git_url = 'https://github.com/dongb5/Retinex.git'
-  Repo.clone_from(git_url, './', branch='master', bare=True)
-  init = False
-import Retinex.retinex as retinex
+# try:
+#     init
+# except NameError:
+#   git_url = 'https://github.com/dongb5/Retinex.git'
+#   Repo.clone_from(git_url, './', branch='master', bare=True)
+#   init = False
+# import Retinex.retinex as retinex
 
 
 ############# Define NN model used for segmentation #############
